@@ -1,0 +1,219 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #ffd700;
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    background: linear-gradient(to bottom right, #4facfe, #00f2fe);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.hero-content h2 {
+    font-size: 48px;
+}
+
+.highlight {
+    color: #ffd700;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    background-color: #333;
+    text-transform: uppercase;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ffd700;
+}
+
+/* About Section */
+.about-section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.about-section h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    font-size: 18px;
+    width: 70%;
+    margin: auto;
+}
+
+/* Projects Section */
+#projects {
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+/* Heading Style */
+#projects h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Project Card */
+.project {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px 0;
+    transition: transform 0.2s;
+}
+
+/* Project Hover Effect */
+.project:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Project Title */
+.project h3 {
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+/* Project Description */
+.project p {
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    #projects {
+        padding: 20px;
+    }
+}
+
+
+/* Contact Section */
+#contact {
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+/* Heading Style */
+#contact h2 {
+    color: #333;
+}
+
+/* List Styles */
+#contact ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#contact li {
+    margin: 10px 0;
+}
+
+/* Link Styles */
+#contact a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    position: relative;
+}
+/* Profile Picture */
+.profile-picture {
+    display: flex;
+    justify-content: center; /* Center the image */
+    margin-bottom: 20px; /* Space below the image */
+}
+
+.profile-picture img {
+    width: 200px; /* Set width */
+    height: 200px; /* Set height */
+    border-radius: 50%; /* Make the image circular */
+    object-fit: cover; /* Cover the area without stretching */
+    border: 2px solid #007bff; /* Optional: Add border */
+}
